@@ -14,7 +14,7 @@ import Footer from './pages/footer';
 function App() {
   return (
     <div className='home'>
-      <h1>Adopta un Agente © Rubencho91</h1>      
+      <p><h1>Adopta un Agente © Rubencho91</h1></p>
       <Routes >
         <Route path="/" element={<Layout/>}>
           <Route path="Contacts" element={<Contacts />}/>          
