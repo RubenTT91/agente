@@ -1,0 +1,51 @@
+footer{
+    margin-top: auto;
+  }
+footer nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    max-height: 60px;
+    justify-items: center;
+    align-items: center;    
+    background:#17202A;
+}
+footer li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer li p{
+    text-wrap: balance;
+    font-size: 10px;
+}
+
+footer li i {
+    font-size: 30px;
+}
+
+footer li i:hover {    
+    color: rgb(194, 194, 194);
+    transform: scale(1.5);
+}

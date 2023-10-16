@@ -1,0 +1,31 @@
+.contenedorTarjeta {
+    width: 20%;   
+    margin: 50px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.5s;
+}
+
+
+.contenedorTarjeta:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+
+
+    padding: 3px;
+    margin: 5px auto;
+    size: cover;
+}
