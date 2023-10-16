@@ -1,8 +1,11 @@
 import Cards from '../components/cards'; 
+import './collection.css';
+
 
 const Collection = () => {
   return (
-    <div><Cards/></div>
+
+    <div className='containerCards'><Cards/></div>
   )
 };
 

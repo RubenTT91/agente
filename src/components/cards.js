@@ -11,6 +11,8 @@ import planta from "./imgAgentes/agt_planta.png";
 import tortuga from "./imgAgentes/agt_tortuga.png";
 import cocodrilo from "./imgAgentes/agt_cocodrilo.png";
 import elefante from "./imgAgentes/agt_elefante.png";
+import hodor from './imgAgentes/agt_hodor.jpg';
+import simona from './imgAgentes/agt_simona.png';
 
 const agentesInfo = [
   {
@@ -83,20 +85,36 @@ const agentesInfo = [
     habilidad: "cobertura",
     description: "ABDX",
   },
+  {
+    id:11, 
+    nombre: "Hodor",
+    imgAgentes:hodor,
+    habilidad:"Mirada Oblicua ",
+    description:"Parte de "
+  },
+  {
+    id:12, 
+    nombre: "Simona",
+    imgAgentes:simona,
+    habilidad:"Vuelo",
+    description:"Vuelo"
+  }
 ];
 
 function cards() {
   return (
-    <div className="body">
-          {agentesInfo.map((agentes) => (
-            <Card
-              id={agentes.id}
-              nombre={agentes.nombre}
-              imgAgentes={agentes.imgAgentes}
-              habilidad={agentes.habilidad}
-              description={agentes.description}
-            />
-          ))}
+    <div className="contenedorPrincipal">
+      <div className="body">
+        {agentesInfo.map((agentes) => (
+          <Card
+            id={agentes.id}
+            imgAgentes={agentes.imgAgentes}
+            nombre={agentes.nombre}
+            habilidad={agentes.habilidad}
+            description={agentes.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }

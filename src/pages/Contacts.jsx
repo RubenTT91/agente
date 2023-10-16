@@ -1,3 +1,4 @@
+import './contacts.css';
 const Contacts = () => {
   return (
     <div>Contacts</div>

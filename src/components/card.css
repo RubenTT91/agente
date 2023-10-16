@@ -1,10 +1,7 @@
 .contenedorTarjeta {
-    width: 20%;   
-    margin: 50px;
-    margin-top: 30px;
+    width: 20%;
+    margin: 40px;
     text-align: center;
-    padding: 5px;
-    border: 2px solid #000000;
     border-radius: 25px;
     background: white;
     box-shadow: 1px 1px 5px black;
@@ -19,13 +16,35 @@
 }
 
 img {
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: 400px;
     object-fit: cover;
-    object-position: top;
+    object-position: top left;    
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
 
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px;
+}
 
-    padding: 3px;
-    margin: 5px auto;
-    size: cover;
+.nombre {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+
+}
+
+.habilidad{
+    font-size: 20px;
+}
+
+.textoDescriptivo {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
 }
